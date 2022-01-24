@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E752656279E30E8009ADC4C /* PopUpMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E752655279E30E8009ADC4C /* PopUpMenu.swift */; };
+		0E8D20D8279E2B3000C48193 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8D20D7279E2B3000C48193 /* ViewRouter.swift */; };
 		0E95A189279C9BB9005E3234 /* AidenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95A188279C9BB9005E3234 /* AidenApp.swift */; };
 		0E95A18B279C9BB9005E3234 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95A18A279C9BB9005E3234 /* ContentView.swift */; };
 		0E95A18D279C9BBB005E3234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E95A18C279C9BBB005E3234 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E752655279E30E8009ADC4C /* PopUpMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpMenu.swift; sourceTree = "<group>"; };
+		0E8D20D7279E2B3000C48193 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 		0E95A185279C9BB8005E3234 /* Aiden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aiden.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E95A188279C9BB9005E3234 /* AidenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AidenApp.swift; sourceTree = "<group>"; };
 		0E95A18A279C9BB9005E3234 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 				0E95A18A279C9BB9005E3234 /* ContentView.swift */,
 				0E95A18C279C9BBB005E3234 /* Assets.xcassets */,
 				0E95A18E279C9BBB005E3234 /* Preview Content */,
+				0E8D20D7279E2B3000C48193 /* ViewRouter.swift */,
+				0E752655279E30E8009ADC4C /* PopUpMenu.swift */,
 			);
 			path = Aiden;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E8D20D8279E2B3000C48193 /* ViewRouter.swift in Sources */,
 				0E95A18B279C9BB9005E3234 /* ContentView.swift in Sources */,
 				0E95A189279C9BB9005E3234 /* AidenApp.swift in Sources */,
+				0E752656279E30E8009ADC4C /* PopUpMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
